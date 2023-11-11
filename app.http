@@ -1,0 +1,19 @@
+###
+POST http://localhost:3008/register 
+Content-Type: application/json
+
+{
+  "username": "ganesh",
+  "password": "ganesh#1995",
+  "email": "ganireddy542@gmail.com"
+}
+###
+
+POST http://localhost:3008/login 
+Content-Type: application/json
+
+{
+  "username": "ganesh",
+  "password": "ganesh#1995",
+  "email": "ganireddy542@gmail.com"
+}
